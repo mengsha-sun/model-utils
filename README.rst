@@ -28,11 +28,13 @@ Installation
 
 ::
 
-    pip install model-utils
+    pip install -e git+https://github.com/mengsha-sun/model-utils.git#egg=model_utils
 
-You can also install the in-development version with::
+You can also install a specific version or branch with::
 
-    pip install https://github.com/mengsha-sun/model-utils/archive/master.zip
+    pip install git+https://github.com/mengsha-sun/model-utils.git@v1.0.0#egg=model_utils
+    pip install git+https://github.com/mengsha-sun/model-utils.git@master#egg=model_utils
+
 
 
 Documentation
